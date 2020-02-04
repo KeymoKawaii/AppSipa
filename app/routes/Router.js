@@ -6,7 +6,7 @@ import Popup from '../components/Popup';
 import Entete from '../components/Entete';
 import Map from '../components/Map';
 import SearchableList from '../components/SearchableList';
-import FicheDetail from '../components/FicheDetail';
+
 
 export default class Router extends Component {
   constructor () {

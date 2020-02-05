@@ -37,14 +37,14 @@ export default class Filter extends Component {
       this.state.left,
       {
         toValue: 0,
-        duration: 800,
+        duration: 200,
       }
     ).start()
     Animated.timing(
       this.state.btnright,
       {
         toValue: (width * .3),
-        duration: 800,
+        duration: 200,
       }
     ).start()
     
@@ -54,14 +54,14 @@ export default class Filter extends Component {
       this.state.left,
       {
         toValue: -(width * .3),
-        duration: 800,
+        duration: 200,
       }
     ).start()
     Animated.timing(
       this.state.btnright,
       {
         toValue: 0,
-        duration: 800,
+        duration: 200,
       }
     ).start()
     

@@ -3662,8 +3662,8 @@ const PLACES = [{
     ville: "LES HERBIERS",
     adresse: '',
     coordonnees: [
-      '',
-      ''
+      46.86667,
+      -1.01667
     ],
     type: "Siège",
     dirigeant: '',
@@ -3684,8 +3684,8 @@ const PLACES = [{
     ville: "LILLE",
     adresse: "8, place du Général De Gaulle",
     coordonnees: [
-      '',
-      ''
+      50.6368904,
+      3.0638363
     ],
     type: "Siège",
     dirigeant: '',
@@ -3772,8 +3772,8 @@ const PLACES = [{
     ville: "RENNES",
     adresse: "16, avenue Henri Fréville",
     coordonnees: [
-      '',
-      ''
+      48.0900715,
+      -1.6752804
     ],
     type: "Siège",
     dirigeant: '',
@@ -3794,8 +3794,8 @@ const PLACES = [{
     ville: "PLÉNEUF-VAL-ANDRÉ",
     adresse: "6, rue de Saint-Alban",
     coordonnees: [
-      '',
-      ''
+      48.570367,
+      -2.5369982
     ],
     type: "Siège",
     dirigeant: '',
@@ -3816,8 +3816,8 @@ const PLACES = [{
     ville: "VALFLAUNÈS",
     adresse: "rue d'Alicante",
     coordonnees: [
-      '',
-      ''
+      43.6945064,
+      7.2896027
     ],
     type: "Siège",
     dirigeant: '',
@@ -3970,8 +3970,8 @@ const PLACES = [{
     ville: "LE MANS",
     adresse: "25, rue des Marais",
     coordonnees: [
-      '',
-      ''
+      47.994239,
+      0.213174
     ],
     type: "Siège",
     dirigeant: '',
@@ -4014,8 +4014,8 @@ const PLACES = [{
     ville: "PARIS",
     adresse: "2, rue des Cévennes",
     coordonnees: [
-      '',
-      ''
+      48.8442508,
+      2.276041
     ],
     type: "Siège",
     dirigeant: '',
@@ -4146,8 +4146,8 @@ const PLACES = [{
     ville: "PARIS",
     adresse: "87, rue du Faubourg Saint-Honoré",
     coordonnees: [
-      '',
-      ''
+      48.8777163,
+      2.2983794
     ],
     type: "Siège",
     dirigeant: "Patrice  HUTIN",
@@ -4168,8 +4168,8 @@ const PLACES = [{
     ville: "PARIS",
     adresse: "88, rue du Faubourg Saint-Honoré",
     coordonnees: [
-      '',
-      ''
+      48.8708053,
+      2.3169838
     ],
     type: "Siège",
     dirigeant: "Patrice  HUTIN",

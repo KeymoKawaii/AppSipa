@@ -1,6 +1,6 @@
 const PLACES = [{
 
-    logo: require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg'),
+    logo: "require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg')",
     societe: "Affiouest",
     groupe: "Additi",
     description: "AFFIOUEST, expert des territoires de l’Ouest, de leurs réalités démographiques, sociologiques et commerciales vous accompagne pour tirer pleinement profit de la publicité extérieure. Selon vos objectifs : événementiel ou longue durée, conquête ou fidélisation, vous disposez d’une grande diversité de solutions et de formats .",
@@ -22,7 +22,7 @@ const PLACES = [{
     telephone: "02 99 26 45 70"
   },
   {
-    logo: require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg'),
+    logo: "require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg')",
     societe: "Affiouest Angers",
     groupe: "Additi",
     description: "AFFIOUEST, expert des territoires de l’Ouest, de leurs réalités démographiques, sociologiques et commerciales vous accompagne pour tirer pleinement profit de la publicité extérieure. Selon vos objectifs : événementiel ou longue durée, conquête ou fidélisation, vous disposez d’une grande diversité de solutions et de formats .",
@@ -44,7 +44,7 @@ const PLACES = [{
     telephone: "02 41 25 34 10"
   },
   {
-    logo: require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg'),
+    logo: "require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg')",
     societe: "Affiouest Brest",
     groupe: "Additi",
     description: "AFFIOUEST, expert des territoires de l’Ouest, de leurs réalités démographiques, sociologiques et commerciales vous accompagne pour tirer pleinement profit de la publicité extérieure. Selon vos objectifs : événementiel ou longue durée, conquête ou fidélisation, vous disposez d’une grande diversité de solutions et de formats .",
@@ -66,7 +66,7 @@ const PLACES = [{
     telephone: "02 98 44 77 68"
   },
   {
-    logo: require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg'),
+    logo: "require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg')",
     societe: "Affiouest Caen",
     groupe: "Additi",
     description: "AFFIOUEST, expert des territoires de l’Ouest, de leurs réalités démographiques, sociologiques et commerciales vous accompagne pour tirer pleinement profit de la publicité extérieure. Selon vos objectifs : événementiel ou longue durée, conquête ou fidélisation, vous disposez d’une grande diversité de solutions et de formats .",
@@ -88,7 +88,7 @@ const PLACES = [{
     telephone: "02 31 47 07 36"
   },
   {
-    logo: require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg'),
+    logo: "require('./sipa/additi/affiouest/logo-500x172_affiouest.jpg')",
     societe: "Affiouest Nantes",
     groupe: "Additi",
     description: "AFFIOUEST, expert des territoires de l’Ouest, de leurs réalités démographiques, sociologiques et commerciales vous accompagne pour tirer pleinement profit de la publicité extérieure. Selon vos objectifs : événementiel ou longue durée, conquête ou fidélisation, vous disposez d’une grande diversité de solutions et de formats .",
@@ -110,7 +110,7 @@ const PLACES = [{
     telephone: "02 40 38 51 96"
   },
   {
-    logo: require('./sipa/additi/dans-nos-coeurs/logo-500x172_dans-nos-coeurs.jpg'),
+    logo: "require('./sipa/additi/dans-nos-coeurs/logo-500x172_dans-nos-coeurs.jpg')",
     societe: "Dans nos coeurs",
     groupe: "Additi",
     description: "Avis de décès – Condoléances en ligne – Livraison de fleurs",
@@ -132,7 +132,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/happy-prod/logo-500x172_happy-prod.jpg'),
+    logo: "require('./sipa/additi/happy-prod/logo-500x172_happy-prod.jpg')",
     societe: "Happy Prod",
     groupe: "Additi",
     description: "Agence événementielle destinée aux entreprises du grand ouest.",
@@ -154,7 +154,7 @@ const PLACES = [{
     telephone: "02 99 32 50 70"
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_hit-west.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_hit-west.jpg')",
     societe: "Hit West",
     groupe: "Additi",
     description: "Hit West couvre l’ensemble de la Bretagne et une partie des Pays-de-la-Loire. Hit West se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne Hit West comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, Hit West séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication d’Hit West dans la vie locale (infos locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -176,7 +176,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/medialex/logo-500x172_medialex.jpg'),
+    logo: "require('./sipa/additi/medialex/logo-500x172_medialex.jpg')",
     societe: "Médialex",
     groupe: "Additi",
     description: "Médialex est une agence de publicité légale en France. Présent sur l'ensemble du territoire et intervenant auprès des 600 journaux habilités à publier des annonces légales dans tous les départements français, Médialex évolue sur deux marchés : - Auprès des professionnels du droit ou du chiffre, voir des particuliers, afin de faciliter leur publication d'annonces légales au meilleur prix. Elle peut également assurer les formalités d'entreprise, via son département Formalex. - Auprès des collectivités territoriales, pour leurs annonces de marchés publics, ainsi qu'auprès des professionnels qui répondent à ces marchés (service de veille...). La société est située à Rennes (35) et compte des bureaux commerciaux à Nantes (44), Le Mans (72), Caen (14), Rouen (76), Pontoise (95), Melun (77) et Paris (75), Lille (59), Lyon (69), Bordeaux (33), Strasbourg (67), Toulon (82), Montpellier (83) et Montpellier (34). Holding : groupe Précom (35 - Rennes), filiale du groupe Sipa - Ouest-France.",
@@ -198,7 +198,7 @@ const PLACES = [{
     telephone: "02 99 26 42 00"
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_oceane-fm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_oceane-fm.jpg')",
     societe: "Océane FM",
     groupe: "Additi",
     description: "Océane FM se positionne comme une radio musicale de divertissement et de proximité. Par sa programmation musicale, Océane FM est une radio qui s’adresse principalement aux auditeurs de 35 ans ou plus. Autour d’un programme familial, consensuel et de proximité, Océane FM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de d’Océane FM dans la vie locale (infos locales, agendas et sorties) et par l’interactivité entre la station et ses auditeurs.",
@@ -220,7 +220,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/precom/logo-500x172_precom.jpg'),
+    logo: "require('./sipa/additi/precom/logo-500x172_precom.jpg')",
     societe: "Précom",
     groupe: "Additi",
     description: "Précom, filiale d'Additi (Groupe SIPA Ouest-France) commercialise les audiences des marques de presse, Ouest-France, Courrier de l'Ouest, Le Maine Libre, Presse Océan, print et web, ainsi que des solutions digitales adaptées aux besoins des différents marchés publicitaires. Précom est organisé en business units spécialisées par marché et propose également une expertise en matière d'achat programmatique des audiences internet. Précom est détentrice de filiales dans les radios (Hit West, Radio Cristal, Océane FM) et la régie publicitaire de radios locales indépendantes (Régie Radio Régions), dans la communication légale (Médialex), la publicité extérieure (Affiouest), le conseil en communication RH, marque employeur et corporate (Précontact, Zcomme), l'Event (Happy Prod), et d'un site de commémoration familiale (Dans nos coeurs).",
@@ -242,7 +242,7 @@ const PLACES = [{
     telephone: "03 99 26 45 45"
   },
   {
-    logo: require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg'),
+    logo: "require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg')",
     societe: "Précontact Nantes",
     groupe: "Additi",
     description: "Agence conseil en Communication & Marketing",
@@ -264,7 +264,7 @@ const PLACES = [{
     telephone: "02 40 38 47 30"
   },
   {
-    logo: require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg'),
+    logo: "require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg')",
     societe: "Précontact Paris",
     groupe: "Additi",
     description: "Agence conseil en Communication & Marketing",
@@ -286,7 +286,7 @@ const PLACES = [{
     telephone: "01 53 30 08 65"
   },
   {
-    logo: require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg'),
+    logo: "require('./sipa/additi/precom/PRECONTACT/logo-500x172_pre-contact.jpg')",
     societe: "Précontact Rennes",
     groupe: "Additi",
     description: "Agence conseil en Communication & Marketing",
@@ -308,7 +308,7 @@ const PLACES = [{
     telephone: "02 99 26 43 65"
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-cristal.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-cristal.jpg')",
     societe: "Radio Cristal",
     groupe: "Additi",
     description: "Radio Cristal se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne Radio Cristal comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, Radio Cristal séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Radio Cristal dans la vie locale (infos locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -330,7 +330,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_regie-radios-regions.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_regie-radios-regions.jpg')",
     societe: "Régie Radios Région",
     groupe: "Additi",
     description: "Régie Radio Régions commercialise les espaces publicitaires des radios du Groupe SIPA / Ouest-France : Hit West, Radio Cristal et Océane FM; Du groupe Lagardère : Virgin Radio et RFM Des radios locales membres des Indés Radios : Alouette, Forum, Vibration, Radio Bonheur, Sweet FM, Sea FM, VFM, FG, Radiocean, Contact FM, Radio Flash, RBA, FGL et MTI.",
@@ -352,7 +352,7 @@ const PLACES = [{
     telephone: "02 99 26 43 29"
   },
   {
-    logo: require('./sipa/additi/z-comme/logo-500x172_z-comme.jpg'),
+    logo: "require('./sipa/additi/z-comme/logo-500x172_z-comme.jpg')",
     societe: "Z comme",
     groupe: "Additi",
     description: "Agence de communication & Expertise",
@@ -374,7 +374,7 @@ const PLACES = [{
     telephone: "01 49 70 85 85"
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_chasse-maree.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_chasse-maree.jpg')",
     societe: "Chasse-Marée",
     groupe: "Infomer",
     description: "Chasse-Marée est l’acteur emblématique de la culture maritime et fluviale française. Outre la revue, l’éditeur développe, aussi, une activité de vente par correspondance (VPC).",
@@ -396,7 +396,7 @@ const PLACES = [{
     telephone: "02 98 92 66 33"
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_culture-marine.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_culture-marine.jpg')",
     societe: "Cultures Marines",
     groupe: "Infomer",
     description: "Tous les mois, le magazine des conchyliculteurs (actualité, dossier, entreprise, culture).",
@@ -418,7 +418,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_marine-edition.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_marine-edition.jpg')",
     societe: "Edilarge",
     groupe: "Infomer",
     description: "Marines Editions édite des revues d’histoire maritime et des livres depuis 1989.",
@@ -440,7 +440,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_le-marin.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_le-marin.jpg')",
     societe: "Le Marin",
     groupe: "Infomer",
     description: "Chaque semaine, l'information de l'économie de la mer (transport maritime, construction navale, industrie nautique, Marine nationale et industrie navale militaire, pêche, littoral et environnement).",
@@ -462,7 +462,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_produits-de-la-mer.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_produits-de-la-mer.jpg')",
     societe: "Produits de la Mer",
     groupe: "Infomer",
     description: "Tous les deux mois, l'actualité de l'industrie des produits de la mer.",
@@ -484,7 +484,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_courrier-de-l-ouest.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_courrier-de-l-ouest.jpg')",
     societe: "Courrier de l’Ouest",
     groupe: "Les Journaux de Loire",
     description: '',
@@ -506,7 +506,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_le-maine-libre.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_le-maine-libre.jpg')",
     societe: "Le Maine Libre - La Flêche",
     groupe: "Les Journaux de Loire",
     description: "Le Maine Libre  - Agence de La Flêche",
@@ -528,7 +528,7 @@ const PLACES = [{
     telephone: "02 43 94 03 77"
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_le-maine-libre.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_le-maine-libre.jpg')",
     societe: "Le Maine Libre - Le Mans",
     groupe: "Les Journaux de Loire",
     description: "Le Maine Libre  - Agence du Mans",
@@ -550,7 +550,7 @@ const PLACES = [{
     telephone: "02 43 83 72 30"
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg')",
     societe: "Presse-Océan",
     groupe: "Les Journaux de Loire",
     description: "Quotidien départemental basé à Nantes compte quatre éditions : Nantes Métropole, Nantes sud, Nantes nord, Saint-Nazaire. - Diffusion : 32 000 exemplaires",
@@ -572,11 +572,11 @@ const PLACES = [{
     telephone: "02 40 44 24 00"
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg')",
     societe: "Presse-Océan Nantes",
     groupe: "Les Journaux de Loire",
     description: "Presse-Océan – Agence de Nantes",
-    region: "PAYS-DE0-LA-LOIRE",
+    region: "PAYS-DE-LA-LOIRE",
     departement: "Loire-Atlantique",
     codepostal: 44000,
     ville: "NANTES",
@@ -594,7 +594,7 @@ const PLACES = [{
     telephone: "02 40 44 24 00"
   },
   {
-    logo: require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg'),
+    logo: "require('./sipa/les-journaux-de-loire/logo-500x172_presse-ocean.jpg')",
     societe: "Presse-Océan Saint-Nazaire",
     groupe: "Les Journaux de Loire",
     description: "Presse-Océan – Agence de Saint-Nazaire",
@@ -616,7 +616,7 @@ const PLACES = [{
     telephone: "02 51 10 11 50"
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition d'Alençon",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition d'Alençon",
@@ -638,7 +638,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition d'Angers - Segré",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition d'Angers – Segré",
@@ -660,7 +660,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition d'Argentan",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition d'Argentan",
@@ -682,7 +682,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition d'Auray",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition d'Auray",
@@ -704,7 +704,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition d'Avranches",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition d'Avranches",
@@ -726,7 +726,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Challans - Saint-Gilles-Croix-de-Vie",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Challans - Saint-Gilles-Croix-de-Vie",
@@ -748,7 +748,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Châteaubriant - Ancenis",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Châteaubriant – Ancenis",
@@ -770,7 +770,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Nantes (ville)",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Nantes (ville)",
@@ -792,7 +792,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Pornic - Pays de Retz",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Pornic - Pays de Retz",
@@ -814,7 +814,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Quimperlé",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Quimperlé",
@@ -836,7 +836,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de  Saint-Nazaire",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Saint-Nazaire",
@@ -858,7 +858,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Bayeux",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Bayeux",
@@ -880,7 +880,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Caen",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Caen",
@@ -902,7 +902,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Château-Gontier",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Château-Gontier",
@@ -924,7 +924,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Cherbourg",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Cherbourg",
@@ -946,7 +946,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Cholet",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Cholet",
@@ -968,7 +968,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Concarneau",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Concarneau",
@@ -990,7 +990,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Coutances",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Coutances",
@@ -1012,7 +1012,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Dinan",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – édition de Dinan",
@@ -1034,7 +1034,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Falaise",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Falaise",
@@ -1056,7 +1056,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Flers",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Flers",
@@ -1078,7 +1078,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Fontenay-le-Comte - Luçon",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Fontenay-le-Comte - Luçon",
@@ -1100,7 +1100,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Fougères",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Fougères",
@@ -1122,7 +1122,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Granville",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Granville",
@@ -1144,7 +1144,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Guingamp",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Guingamp",
@@ -1166,7 +1166,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de La Baule-Escoublac - Guérande",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de La Baule-Escoublac - Guérande",
@@ -1188,7 +1188,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de La Roche-sur-Yon",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  La Roche-sur-Yon",
@@ -1210,7 +1210,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Lamballe",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Lamballe",
@@ -1232,7 +1232,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Lannion",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Lannion",
@@ -1254,7 +1254,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Laval",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Laval",
@@ -1276,7 +1276,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Lisieux",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Lisieux",
@@ -1298,7 +1298,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Lorient",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Lorient",
@@ -1320,7 +1320,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Loudéac",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Loudéac",
@@ -1342,7 +1342,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Paimpol",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Paimpol",
@@ -1364,7 +1364,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Ploërmel",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Ploërmel",
@@ -1386,7 +1386,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Pontivy",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Pontivy",
@@ -1408,7 +1408,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Quimper",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Quimper",
@@ -1430,7 +1430,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Redon",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Redon",
@@ -1452,7 +1452,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Rostrenen",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Rostrenen",
@@ -1474,7 +1474,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Saint-Brieuc",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Saint-Brieuc",
@@ -1496,7 +1496,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Saint-Lô",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Saint-Lô",
@@ -1518,7 +1518,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Saint-Malo",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Saint-Malo",
@@ -1540,7 +1540,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Trouville",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Trouville",
@@ -1562,7 +1562,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Vannes",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Vannes",
@@ -1584,7 +1584,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Vire",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de  Vire",
@@ -1606,7 +1606,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition de Vitré",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition de Vitré",
@@ -1628,7 +1628,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition des Herbiers - Montaigu",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition des Sables-d'Olonne",
@@ -1650,7 +1650,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition des Sables-d'Olonne",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition des Sables-d'Olonne",
@@ -1672,7 +1672,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition du Centre-Finistère",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition du Centre-Finistère",
@@ -1694,7 +1694,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition du Nord Finistère",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition du Nord Finistère",
@@ -1716,7 +1716,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Le Mans - Sarthe nord",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Le Mans - Sarthe nord",
@@ -1738,7 +1738,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Nord Loire",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Nord Loire",
@@ -1760,7 +1760,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Nord-Mayenne",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Nord-Mayenne",
@@ -1782,7 +1782,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Rennes Centre",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Rennes Centre",
@@ -1804,7 +1804,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Rennes Est",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition  Rennes Est",
@@ -1826,7 +1826,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Rennes Nord",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition  Rennes Nord",
@@ -1848,7 +1848,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Rennes Ouest",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Rennes Ouest",
@@ -1870,7 +1870,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Rennes Sud",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Rennes Sud",
@@ -1892,7 +1892,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Sarthe sud",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Sarthe sud",
@@ -1914,7 +1914,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Édition Sud-Loire - Vignoble",
     groupe: "Ouest-France",
     description: "Quotidien Ouest-France – Édition Sud-Loire - Vignoble",
@@ -1936,7 +1936,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/publihebdos/logo-500x172_apei.jpg'),
+    logo: "require('./sipa/publihebdos/logo-500x172_apei.jpg')",
     societe: "Agence de presse APEi",
     groupe: "Publihebdos",
     description: "L’Agence de Presse, Edition et information (APEi) est une agence de presse reconnue par la profession, dont tous les rédacteurs sont journalistes professionnels. Elle dispose d’un large choix de textes et de visuels, actualisés en permanence. Chaque année, elle met son savoir-faire au service des entreprises en quête de contenu, et les accompagne dans leur stratégie éditoriale.",
@@ -1958,7 +1958,7 @@ const PLACES = [{
     telephone: "01 64 87 50 20"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_cote-brest.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_cote-brest.jpg')",
     societe: "Côté Brest",
     groupe: "Publihebdos",
     description: "Hebdomadaire – Gratuit",
@@ -1980,7 +1980,7 @@ const PLACES = [{
     telephone: "02 98 20 96 20"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_cote-caen.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_cote-caen.jpg')",
     societe: "Côté Caen",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Gratuit",
@@ -2002,7 +2002,7 @@ const PLACES = [{
     telephone: "02 31 86 03 32"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_cote-quimper.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_cote-quimper.jpg')",
     societe: "Côté Quimper",
     groupe: "Publihebdos",
     description: "Hebdomadaire parution le mercredi – Gratuit",
@@ -2024,7 +2024,7 @@ const PLACES = [{
     telephone: "02 98 95 16 01"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_cote-rouen.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_cote-rouen.jpg')",
     societe: "Côté Rouen",
     groupe: "Publihebdos",
     description: "Hebdomadaire – Gratuit",
@@ -2046,7 +2046,7 @@ const PLACES = [{
     telephone: "02 35 89 26 86"
   },
   {
-    logo: require('./sipa/publihebdos/occitanie/logo-500x172_cote-toulouse.jpg'),
+    logo: "require('./sipa/publihebdos/occitanie/logo-500x172_cote-toulouse.jpg')",
     societe: "Côté Toulouse",
     groupe: "Publihebdos",
     description: "Audience : 45 000 exemplaires",
@@ -2068,7 +2068,7 @@ const PLACES = [{
     telephone: "05 61 99 44 47"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_cote-val-d-oise.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_cote-val-d-oise.jpg')",
     societe: "Côté Val d'Oise",
     groupe: "Publihebdos",
     description: "Hebdomadaire – Gratuit",
@@ -2090,7 +2090,7 @@ const PLACES = [{
     telephone: "01 34 35 10 19"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_cote-yvelines.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_cote-yvelines.jpg')",
     societe: "Côté Yvelines",
     groupe: "Publihebdos",
     description: '',
@@ -2112,7 +2112,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/publihebdos/haut-de-france/logo-500x172_la-croix-du-nord.jpg'),
+    logo: "require('./sipa/publihebdos/haut-de-france/logo-500x172_la-croix-du-nord.jpg')",
     societe: "Croix du Nord",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi",
@@ -2134,7 +2134,7 @@ const PLACES = [{
     telephone: "03 20 55 42 60"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_eure-infos.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_eure-infos.jpg')",
     societe: "Eure Infos",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Mardi – Audience : 25 913 lecteurs",
@@ -2156,7 +2156,7 @@ const PLACES = [{
     telephone: "02 32 62 58 58"
   },
   {
-    logo: require('./sipa/publihebdos/centre-val-de-loire/logo-500x172_l-action-republicaine.jpg'),
+    logo: "require('./sipa/publihebdos/centre-val-de-loire/logo-500x172_l-action-republicaine.jpg')",
     societe: "L’Action Républicaine",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 22 500 lecteurs",
@@ -2178,7 +2178,7 @@ const PLACES = [{
     telephone: "02 37 53 49 49"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_l-echo-le-regional.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_l-echo-le-regional.jpg')",
     societe: "L’Écho – Le Régional",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 14 589 lecteurs",
@@ -2200,7 +2200,7 @@ const PLACES = [{
     telephone: "01 30 30 54 92"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_l-echo-de-l-armor-et-de-l-argoat.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_l-echo-de-l-armor-et-de-l-argoat.jpg')",
     societe: "L’Écho de l’Armor et de l’Argoat",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 40 496 lecteurs",
@@ -2222,7 +2222,7 @@ const PLACES = [{
     telephone: "02 96 40 62 40"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-echo-de-la-presqu-ile.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-echo-de-la-presqu-ile.jpg')",
     societe: "L’Écho de la Presqu’île",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 65 801 lecteurs",
@@ -2244,7 +2244,7 @@ const PLACES = [{
     telephone: "02 40 15 69 69"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-echo-sarthois.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-echo-sarthois.jpg')",
     societe: "L’Écho Sarthois",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 22 500 lecteurs",
@@ -2266,7 +2266,7 @@ const PLACES = [{
     telephone: "02 51 49 79 49"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-eclaireur-chateaubriand.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-eclaireur-chateaubriand.jpg')",
     societe: "L’Éclaireur de Châteaubriand",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 38 092 lecteurs",
@@ -2310,7 +2310,7 @@ const PLACES = [{
     telephone: "02 35 86 07 11"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-de-lisieux.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-de-lisieux.jpg')",
     societe: "L’Éveil de Lisieux – Côte",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 16 503 lecteurs",
@@ -2332,7 +2332,7 @@ const PLACES = [{
     telephone: "02 31 48 53 90"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-de-pont-audemer.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-de-pont-audemer.jpg')",
     societe: "L’Éveil de Pont-Audemer",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mardi – Audience : 35 676 lecteurs",
@@ -2354,7 +2354,7 @@ const PLACES = [{
     telephone: "02 32 41 20 20"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-normand.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-eveil-normand.jpg')",
     societe: "L’Éveil normand",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Mercredi – Audience : 40 014 lecteurs",
@@ -2376,7 +2376,7 @@ const PLACES = [{
     telephone: "02 32 47 81 00"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-hebdo-de-sevre-et-maine.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_l-hebdo-de-sevre-et-maine.jpg')",
     societe: "L’Hebdo de Sèvre & Maine",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 23 000 lecteurs",
@@ -2398,7 +2398,7 @@ const PLACES = [{
     telephone: "02 43 20 17 17"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-impartial.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-impartial.jpg')",
     societe: "L’Impartial",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 43 668 lecteurs",
@@ -2420,7 +2420,7 @@ const PLACES = [{
     telephone: "02 32 54 00 84"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-informateur.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-informateur.jpg')",
     societe: "L’Informateur d’Eu",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 30 650 lecteurs",
@@ -2442,7 +2442,7 @@ const PLACES = [{
     telephone: "02 35 86 07 11"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-orne-combattante.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-orne-combattante.jpg')",
     societe: "L’Orne Combattante",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution jeudi – Audience : 56 729 lecteurs",
@@ -2464,7 +2464,7 @@ const PLACES = [{
     telephone: "02 33 62 15 15"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_l-orne-hebdo.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_l-orne-hebdo.jpg')",
     societe: "L’Orne Hebdo",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mardi – Audience : 39 074 lecteurs",
@@ -2486,7 +2486,7 @@ const PLACES = [{
     telephone: "02 33 82 15 15"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_la-chronique-republicaine.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_la-chronique-republicaine.jpg')",
     societe: "La Chronique Républicaine",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 77 000 lecteurs",
@@ -2508,7 +2508,7 @@ const PLACES = [{
     telephone: "02 99 99 12 15"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg')",
     societe: "La Dépêche de Louviers",
     groupe: "Publihebdos",
     description: "Hebdomadaire – parution le vendredi – Audience : 58 633  lecteurs",
@@ -2530,7 +2530,7 @@ const PLACES = [{
     telephone: "02 32 39 85 55"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg')",
     societe: "La Dépêche de Verneuil",
     groupe: "Publihebdos",
     description: "Hebdomadaire – parution le vendredi – Audience : 58 633  lecteurs",
@@ -2552,7 +2552,7 @@ const PLACES = [{
     telephone: "02 32 39 85 55"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-depeche.jpg')",
     societe: "La Dépêche d'Évreux",
     groupe: "Publihebdos",
     description: "Hebdomadaire – parution le vendredi – Audience : 58 633  lecteurs",
@@ -2574,7 +2574,7 @@ const PLACES = [{
     telephone: "02 32 39 85 55"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-gazette-de-la-manche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-gazette-de-la-manche.jpg')",
     societe: "La Gazette de la Manche",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 37 847 lecteurs",
@@ -2596,7 +2596,7 @@ const PLACES = [{
     telephone: "02 33 79 30 80"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_la-gazette-du-centre-morbihan.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_la-gazette-du-centre-morbihan.jpg')",
     societe: "La Gazette du Centre Morbihan",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 30 769 lecteurs",
@@ -2618,7 +2618,7 @@ const PLACES = [{
     telephone: "02 97 60 26 16"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_la-gazette-du-val-d-oise.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_la-gazette-du-val-d-oise.jpg')",
     societe: "La Gazette du Val-d’Oise",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 19 926 lecteurs",
@@ -2640,7 +2640,7 @@ const PLACES = [{
     telephone: "01 34 35 10 00"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_la-marne.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_la-marne.jpg')",
     societe: "La Marne",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 50 853 lecteurs",
@@ -2662,7 +2662,7 @@ const PLACES = [{
     telephone: "01 60 23 35 00"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_la-presse-d-armor.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_la-presse-d-armor.jpg')",
     societe: "La Presse d’Armor",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 25 427 lecteurs",
@@ -2684,7 +2684,7 @@ const PLACES = [{
     telephone: "02 96 55 33 22"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-presse-de-la-manche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-presse-de-la-manche.jpg')",
     societe: "La Presse de la Manche",
     groupe: "Publihebdos",
     description: "Quotidien – Du dimanche au vendredi – Audience : 86.600 lecteurs",
@@ -2706,7 +2706,7 @@ const PLACES = [{
     telephone: "02 33 97 16 16"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-renaissance.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-renaissance.jpg')",
     societe: "La Renaissance le Bessin",
     groupe: "Publihebdos",
     description: "Bi-hebdomadaire, parution le mardi et vendredi – Audience : 22 424 lecteurs",
@@ -2728,7 +2728,7 @@ const PLACES = [{
     telephone: "02 31 51 10 10"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_la-republique-de-seine-et-marne.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_la-republique-de-seine-et-marne.jpg')",
     societe: "La République de Seine-et-Marne",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le lundi –Audience : 91 512 lecteurs",
@@ -2750,7 +2750,7 @@ const PLACES = [{
     telephone: "01 64 87 50 00"
   },
   {
-    logo: require('./sipa/publihebdos/occitanie/logo-500x172_la-vie-quercinoise.jpg'),
+    logo: "require('./sipa/publihebdos/occitanie/logo-500x172_la-vie-quercinoise.jpg')",
     societe: "La Vie Quercynoise",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 17 695 lecteurs",
@@ -2772,7 +2772,7 @@ const PLACES = [{
     telephone: "05 65 53 65 40"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_la-voix-le-bocage.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_la-voix-le-bocage.jpg')",
     societe: "La Voix - Le Bocage",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 29 470",
@@ -2794,7 +2794,7 @@ const PLACES = [{
     telephone: "02 31 68 02 56"
   },
   {
-    logo: require('./sipa/publihebdos/auvergne-rhone-alpes/logo-500x172_la-voix-du-cantal.jpg'),
+    logo: "require('./sipa/publihebdos/auvergne-rhone-alpes/logo-500x172_la-voix-du-cantal.jpg')",
     societe: "La Voix du Cantal",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 8 614 lecteurs",
@@ -2816,7 +2816,7 @@ const PLACES = [{
     telephone: "04 71 48 90 56"
   },
   {
-    logo: require('./sipa/publihebdos/franche-comte/logo-500x172_la-voix-du-jura.jpg'),
+    logo: "require('./sipa/publihebdos/franche-comte/logo-500x172_la-voix-du-jura.jpg')",
     societe: "La Voix du Jura",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 35 000 visites / mois",
@@ -2838,7 +2838,7 @@ const PLACES = [{
     telephone: "03 84 87 16 16"
   },
   {
-    logo: require('./sipa/publihebdos/occitanie/logo-500x172_la-voix-du-midi-lauragais.jpg'),
+    logo: "require('./sipa/publihebdos/occitanie/logo-500x172_la-voix-du-midi-lauragais.jpg')",
     societe: "La Voix du Midi - Lauragais",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 21 840 lecteurs",
@@ -2860,7 +2860,7 @@ const PLACES = [{
     telephone: "05 61 83 48 05"
   },
   {
-    logo: require('./sipa/publihebdos/occitanie/logo-500x172_voix-du-midi-toulouse.jpg'),
+    logo: "require('./sipa/publihebdos/occitanie/logo-500x172_voix-du-midi-toulouse.jpg')",
     societe: "La Voix du Midi - Toulouse",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 50 400 lecteurs",
@@ -2882,7 +2882,7 @@ const PLACES = [{
     telephone: "05 61 83 48 05"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-courrier-de-l-eure.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-courrier-de-l-eure.jpg')",
     societe: "Le Courrier de l’Eure",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 22 669 lecteurs",
@@ -2904,7 +2904,7 @@ const PLACES = [{
     telephone: "02 32 35 17 11"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_le-courrier-de-mantes.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_le-courrier-de-mantes.jpg')",
     societe: "Le Courrier de Mantes",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 28 390 lecteurs",
@@ -2926,7 +2926,7 @@ const PLACES = [{
     telephone: "01 34 77 40 40"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_le-courrier-des-yvelines.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_le-courrier-des-yvelines.jpg')",
     societe: "Le Courrier des Yvelines",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi",
@@ -2948,7 +2948,7 @@ const PLACES = [{
     telephone: "01 30 97 72 10"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-courrier-du-pays-de-retz.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-courrier-du-pays-de-retz.jpg')",
     societe: "Le Courrier du pays de Retz",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 44 172 lecteurs",
@@ -2970,7 +2970,7 @@ const PLACES = [{
     telephone: "02 40 81 03 18"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-courrier-independant.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-courrier-independant.jpg')",
     societe: "Le Courrier Indépendant",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 28 102 lecteurs",
@@ -2992,7 +2992,7 @@ const PLACES = [{
     telephone: "02 96 28 00 06"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-courrier-vendeen.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-courrier-vendeen.jpg')",
     societe: "Le Courrier Vendéen",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 20 790 lecteurs",
@@ -3014,7 +3014,7 @@ const PLACES = [{
     telephone: "02 51 74 00 3"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-democrate-vervonnais.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-democrate-vervonnais.jpg')",
     societe: "Le Démocrate vernonnais",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Mercredi – Audience : 19 296 lecteurs",
@@ -3036,7 +3036,7 @@ const PLACES = [{
     telephone: "02 32 21 01 18"
   },
   {
-    logo: require('./sipa/publihebdos/haut-de-france/logo-500x172_le-journal-d-abbeville.jpg'),
+    logo: "require('./sipa/publihebdos/haut-de-france/logo-500x172_le-journal-d-abbeville.jpg')",
     societe: "Le Journal d’Abbeville",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 28 500 lecteurs",
@@ -3058,7 +3058,7 @@ const PLACES = [{
     telephone: "03 22 24 90 24"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-journal-d-elbeuf.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-journal-d-elbeuf.jpg')",
     societe: "Le Journal d’Elbeuf",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 13 169 lecteurs",
@@ -3080,7 +3080,7 @@ const PLACES = [{
     telephone: "02 35 77 05 41"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-journal-de-vitre.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-journal-de-vitre.jpg')",
     societe: "Le Journal de Vitré",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 20 383 lecteurs",
@@ -3102,7 +3102,7 @@ const PLACES = [{
     telephone: "02 99 74 10 10"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_journal-du-pays-yonnais.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_journal-du-pays-yonnais.jpg')",
     societe: "Le Journal du Pays Yonnais",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 14 760 lecteurs",
@@ -3124,7 +3124,7 @@ const PLACES = [{
     telephone: "02 43 62 16 16"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_le-pays-briard.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_le-pays-briard.jpg')",
     societe: "Le Pays Briard",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mardi et le vendredi – Audience : 29 491 lecteurs",
@@ -3146,7 +3146,7 @@ const PLACES = [{
     telephone: "01 64 75 38 00"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-pays-d-auge.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-pays-d-auge.jpg')",
     societe: "Le Pays d’Auge",
     groupe: "Publihebdos",
     description: "Bi-hebdomadaire, parution le mardi et vendredi – Audience : 49 032 lecteurs",
@@ -3168,7 +3168,7 @@ const PLACES = [{
     telephone: "02 31 48 54 60"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-pays-malouin.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-pays-malouin.jpg')",
     societe: "Le Pays Malouin",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Jeudi – Audience : 39 211 lecteurs",
@@ -3190,7 +3190,7 @@ const PLACES = [{
     telephone: "02 99 40 27 00"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-penthievre.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-penthievre.jpg')",
     societe: "Le Penthièvre",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Jeudi – Audience : 18 151 lecteurs",
@@ -3212,7 +3212,7 @@ const PLACES = [{
     telephone: "02 96 30 80 00"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-perche.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-perche.jpg')",
     societe: "Le Perche",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 43 772 lecteurs",
@@ -3234,7 +3234,7 @@ const PLACES = [{
     telephone: "02 33 85 20 50"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-petit-bleu.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-petit-bleu.jpg')",
     societe: "Le Petit Bleu des Côtes d’Armor",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Jeudi – Audience : 25 924 lecteurs",
@@ -3256,7 +3256,7 @@ const PLACES = [{
     telephone: "02 96 39 85 90"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-petit-courrier.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_le-petit-courrier.jpg')",
     societe: "Le Petit Courrier – L’Écho de la Vallée du Loir",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 22 950 lecteurs",
@@ -3278,7 +3278,7 @@ const PLACES = [{
     telephone: "02 43 44 00 01"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-ploermelais.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-ploermelais.jpg')",
     societe: "Le Ploërmelais",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 20 095 lecteurs",
@@ -3300,7 +3300,7 @@ const PLACES = [{
     telephone: "02 97 93 68 51"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-publicateur.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-publicateur.jpg')",
     societe: "Le Publicateur Libre",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution jeudi – Audience : 34 081 lecteurs",
@@ -3322,7 +3322,7 @@ const PLACES = [{
     telephone: "02 33 38 50 06"
   },
   {
-    logo: require('./sipa/publihebdos/aquitaine/logo-500x172_le-republicain-lot-et-garonne.jpg'),
+    logo: "require('./sipa/publihebdos/aquitaine/logo-500x172_le-republicain-lot-et-garonne.jpg')",
     societe: "Le Républicain Lot-et-Garonne",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 46 200 lecteurs",
@@ -3344,7 +3344,7 @@ const PLACES = [{
     telephone: "05 53 20 92 93"
   },
   {
-    logo: require('./sipa/publihebdos/aquitaine/logo-500x172_le-republicain-sud-gironde.jpg'),
+    logo: "require('./sipa/publihebdos/aquitaine/logo-500x172_le-republicain-sud-gironde.jpg')",
     societe: "Le Républicain Sud-Gironde",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 33 600 lecteurs",
@@ -3366,7 +3366,7 @@ const PLACES = [{
     telephone: "05 56 76 21 72"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_le-reveil_normand.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_le-reveil_normand.jpg')",
     societe: "Le Réveil Normand",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 42 919 lecteurs",
@@ -3388,7 +3388,7 @@ const PLACES = [{
     telephone: "02 33 24 42 33"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_le-tregor.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_le-tregor.jpg')",
     societe: "Le Trégor",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 76 626 lecteurs",
@@ -3410,7 +3410,7 @@ const PLACES = [{
     telephone: "02 96 46 67 67"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-alpes-mancelles.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-alpes-mancelles.jpg')",
     societe: "Les Alpes Mancelles",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 13 760 lecteurs",
@@ -3432,7 +3432,7 @@ const PLACES = [{
     telephone: "05 61 99 44 44"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_les-informations-dieppoises.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_les-informations-dieppoises.jpg')",
     societe: "Les Informations Dieppoises",
     groupe: "Publihebdos",
     description: "Bi-hebdomadaire, parution le mardi et le vendredi – Audience : 58 787 lecteurs",
@@ -3454,7 +3454,7 @@ const PLACES = [{
     telephone: "02 35 84 11 83"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-nouvelles-l-echo-flechois.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-nouvelles-l-echo-flechois.jpg')",
     societe: "Les Nouvelles - L’Écho Fléchois",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 29 100 lecteurs",
@@ -3476,7 +3476,7 @@ const PLACES = [{
     telephone: "02 40 36 04 30"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_les-nouvelles-de-falaise.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_les-nouvelles-de-falaise.jpg')",
     societe: "Les Nouvelles de Falaise",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 13 990 lecteurs",
@@ -3498,7 +3498,7 @@ const PLACES = [{
     telephone: "02 31 90 01 40"
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Les Nouvelles de l’Odet",
     groupe: "Publihebdos",
     description: '',
@@ -3520,7 +3520,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Les Nouvelles du Viaduc",
     groupe: "Publihebdos",
     description: '',
@@ -3542,7 +3542,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-sables-vendee-journal.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_les-sables-vendee-journal.jpg')",
     societe: "Les Sables Vendée-Journal",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le Jeudi – Audience : 44 226 lecteurs",
@@ -3564,7 +3564,7 @@ const PLACES = [{
     telephone: "02 51 24 25 10"
   },
   {
-    logo: require('./sipa/publihebdos/normandie/logo-500x172_cote-mancheiberte-le-bonhomme-libre.jpg'),
+    logo: "require('./sipa/publihebdos/normandie/logo-500x172_cote-mancheiberte-le-bonhomme-libre.jpg')",
     societe: "Liberté - Le Bonhomme Libre",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le jeudi – Audience : 57 218 lecteurs",
@@ -3586,7 +3586,7 @@ const PLACES = [{
     telephone: "02 31 86 03 32"
   },
   {
-    logo: require('./sipa/publihebdos/pays-de-loire/logo-500x172_mayenne-infos.jpg'),
+    logo: "require('./sipa/publihebdos/pays-de-loire/logo-500x172_mayenne-infos.jpg')",
     societe: "Mayenne Infos",
     groupe: "Publihebdos",
     description: "Mensuel, parution la première semaine de chaque mois.",
@@ -3608,7 +3608,7 @@ const PLACES = [{
     telephone: "02 33 38 50 06"
   },
   {
-    logo: require('./sipa/publihebdos/bretagne/logo-500x172_pontivy-journal.jpg'),
+    logo: "require('./sipa/publihebdos/bretagne/logo-500x172_pontivy-journal.jpg')",
     societe: "Pontivy Journal",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le vendredi – Audience : 20 015 lecteurs",
@@ -3630,7 +3630,7 @@ const PLACES = [{
     telephone: "02 97 25 00 14"
   },
   {
-    logo: require('./sipa/publihebdos/ile-de-france/logo-500x172_toutes-les-nouvelles.jpg'),
+    logo: "require('./sipa/publihebdos/ile-de-france/logo-500x172_toutes-les-nouvelles.jpg')",
     societe: "Toutes les nouvelles",
     groupe: "Publihebdos",
     description: "Hebdomadaire, parution le mercredi – Audience : 43 106 lecteurs",
@@ -3652,7 +3652,7 @@ const PLACES = [{
     telephone: "01 30 97 72 10"
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-allouette.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-allouette.jpg')",
     societe: "Alouette",
     groupe: "Radios Régie Régions",
     description: "Avec plus de 457 000 auditeurs quotidiens, Alouette est la 2ème radio régionale de France . Alouette avec 43 fréquences réparties sur 15 départements et 4 régions couvre un grand arc Atlantique allant de Vannes à Bordeaux .Alouette se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne Alouette comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, Alouette séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication d’Alouette dans la vie locale (infos locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -3674,7 +3674,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_contact-fm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_contact-fm.jpg')",
     societe: "Contact FM",
     groupe: "Radios Régie Régions",
     description: "Contact FM c’est plus de 303 000 auditeurs chaque jour. Contact FM couvre 6 départements avec 22 fréquences dans les Hauts-de-France. Contact FM se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne Hit West comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, Contact FM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Contact FM dans la vie locale (infos locales, création d’évènement) et par l’interactivité entre la station et ses auditeurs.",
@@ -3696,7 +3696,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-fg.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-fg.jpg')",
     societe: "FG",
     groupe: "Radios Régie Régions",
     description: "Chaque jour se sont plus de 306 000 auditeurs qui écoutent Radio FG. Radio FG a été la première radio en France à dédier intégralement sa programmation à la musique électronique. Radio FG se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne Radio FG comme une station musicale incontournable.",
@@ -3718,7 +3718,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-FGL.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-FGL.jpg')",
     societe: "FGL",
     groupe: "Radios Régie Régions",
     description: "FGL Fréquence Grands Lacs c’est 8 600 auditeurs chaque jour. FGL Fréquence Grands Lacs couvre le département des Landes avec 5 fréquences. FGL Fréquence Grands Lacs se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne FGL Fréquence Grands Lacs comme une station musicale incontournable dans les Landes. Autour d’un programme familial, consensuel et de proximité, FGL Fréquence Grands Lacs séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de FGL Fréquence Grands Lacs dans la vie locale (infos locales, création d’évènement) et par l’interactivité entre la station et ses auditeurs.",
@@ -3740,7 +3740,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-forum.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-forum.jpg')",
     societe: "Forum",
     groupe: "Radios Régie Régions",
     description: "Forum se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale à dominante Pop-Rock des hits des années 80 à 2000 positionne Forum comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, Forum séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Forum dans la vie locale (infos locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -3762,7 +3762,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-mti.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-mti.jpg')",
     societe: "MTI",
     groupe: "Radios Régie Régions",
     description: "MTI c’est plus de  42 000 auditeurs chaque jour. MTI est présent dans 3 départements : la Drôme, l’Ardèche et le Gard. Ses émetteurs lui permettent également de couvrir le Nord Ouest du département du Vaucluse. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne MTI comme une station musicale incontournable sur ces départements. Ainsi, MTI se positionne comme une radio musicale de divertissement et de proximité. Enfin, cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de MTI dans la vie locale (infos locales, création d’évènement) et par l’interactivité entre la station et ses auditeurs.",
@@ -3784,7 +3784,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-bonheur.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-bonheur.jpg')",
     societe: "Radio Bonheur",
     groupe: "Radios Régie Régions",
     description: "Présent sur les Côtes-d’Armor, le Centre Bretagne et la région malouine, Radio Bonheur est LA station qui diffuse exclusivement des chansons Françaises. Le programme musical de Radio Bonheur est clairement un format musical ciblant les adultes et les séniors. Autour d’un programme familial, consensuel et de proximité, Radio Bonheur séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de de Radio Bonheur dans la vie locale (infos locales, météo marine, agendas et sorties) et par l’interactivité entre la station et ses auditeurs notamment en donnant quotidiennement la parole à plus de 1 200 associations. Enfin cette proximité s’exprime également à travers la retransmission des matchs de l’En Avant Guingamp.",
@@ -3806,7 +3806,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-flash.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-flash.jpg')",
     societe: "Radio Flash",
     groupe: "Radios Régie Régions",
     description: "Radio Flash, c’est 2 fréquence en Cévennes Méditerranée qui réunissent 51 400 auditeurs chaque semaine. Radio Flash se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment.Autour d’un programme familial, consensuel et de proximité, Radio Flash séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Radio Flash dans la vie locale (infos locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -3828,7 +3828,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-ocean.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-ocean.jpg')",
     societe: "Radio Océan",
     groupe: "Radios Régie Régions",
     description: "RadiOcéan est actuellement implanté dans 2 départements :   Le Finistère : 68 100 auditeurs chaque semaine, lLe Morbihan : 50 300 auditeurs chaque semaine. RadiOcéan se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits des années 60 à nos jours. Autour d’un programme familial, consensuel et de proximité, RadiOcéan séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de RadiOcéan dans la vie locale (infos locales, création d’évènement) et par l’interactivité entre la station et ses auditeurs.",
@@ -3850,7 +3850,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-vfm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-vfm.jpg')",
     societe: "Radio VFM",
     groupe: "Radios Régie Régions",
     description: "Radio VFM présente sur une partie du Calvados réunit chaque semaine plus de 24 000 auditeurs. VFM est ainsi la 1ère des radios locales sur la zone de Vire-Bayeux. VFM se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constitué des principaux hits du moment positionne VFM comme une station musicale incontournable. Autour d’un programme familial, consensuel et de proximité, VFM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de VFM dans la vie locale (infos locales, météo locale, agendas et sorties) et par l’interactivité entre la station et ses auditeurs.",
@@ -3872,7 +3872,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-rba.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-rba.jpg')",
     societe: "RBA",
     groupe: "Radios Régie Régions",
     description: "RBA – Radio Bassin d’Arcachon c’est 6 500 auditeurs chaque jour. RBA – Radio Bassin d’Arcachon couvre l’ensemble du Bassin d’Arcachon. RBA – Radio Bassin d’Arcachon se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits du moment positionne RBA – Radio Bassin d’Arcachon comme une station musicale incontournable du Bassin d’Arcachon. Autour d’un programme familial, consensuel et de proximité, RBA – Radio Bassin d’Arcachon séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de RBA – Radio Bassin d’Arcachon dans la vie locale (infos locales, création d’évènement) et par l’interactivité entre la station et ses auditeurs.",
@@ -3894,7 +3894,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-rfm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-rfm.jpg')",
     societe: "RFM",
     groupe: "Radios Régie Régions",
     description: "La station de la famille offre une programmation riche et diversifiée à ses auditeurs, qui sont de plus en plus nombreux ! Pop music, disco, funk, rock et nouveautés font les couleurs de la station, avec des artistes emblématiques, telle est la recette du meilleur de la musique ! RFM c’est aussi de la bonne humeur avec dès 6h « Le Meilleur des Réveils » désormais animé par Elodie GOSSUIN et Albert SPANO et rassemble tous les matins plus d’1,1 million d’auditeurs fidèles. RFM c’est également des interviews inédites menées par Karine FERRI le week-end. Chez vous, en voiture, au travail ou sur votre mobile, désormais le meilleur de la musique est accessible partout et à tout moment.",
@@ -3916,7 +3916,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sea-fm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sea-fm.jpg')",
     societe: "Sea FM",
     groupe: "Radios Régie Régions",
     description: "Chaque semaine, plus de 48 000 personnes écoutent Sea FM sur le département de la Manche. Sea FM se positionne comme une radio musicale de divertissement et de proximité avec une programmation musicale généraliste destiné au plus de 35 ans. Autour d’un programme familial, consensuel et de proximité, Sea FM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Sea FM dans la vie locale (infos locales, agendas et sorties) et par l’interactivité entre la station et ses auditeurs.",
@@ -3938,7 +3938,7 @@ const PLACES = [{
     telephone: "02 33 19 03 09"
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sea-fm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sea-fm.jpg')",
     societe: "Sea FM",
     groupe: "Radios Régie Régions",
     description: "Chaque semaine, plus de 48 000 personnes écoutent Sea FM sur le département de la Manche. Sea FM se positionne comme une radio musicale de divertissement et de proximité avec une programmation musicale généraliste destiné au plus de 35 ans. Autour d’un programme familial, consensuel et de proximité, Sea FM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Sea FM dans la vie locale (infos locales, agendas et sorties) et par l’interactivité entre la station et ses auditeurs.",
@@ -3960,7 +3960,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sweet-fm.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-sweet-fm.jpg')",
     societe: "Sweet FM",
     groupe: "Radios Régie Régions",
     description: "Fortement implanté sur son territoire, Sweet FM touche également 30% des habitants du Perche. Avec son format généraliste, Sweet FM attire un large public tout au long de la journée. La matinale est très rythmée et axée sur l’information ; tandis que la soirée est plus musicale et interactive afin de capter un auditoire plus jeune. Autour d’un programme familial, consensuel et de proximité, Sweet FM séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Sweet FM dans la vie locale (infos et météo locales, création d’évènement et de concert) et par l’interactivité entre la station et ses auditeurs.",
@@ -3982,7 +3982,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-vibration.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-vibration.jpg')",
     societe: "Vibration",
     groupe: "Radios Régie Régions",
     description: "Vibration se positionne comme une radio musicale de divertissement et de proximité. Le choix d’une programmation musicale généraliste et constituée des principaux hits français et internationaux Vibration comme une station musicale incontournable.Autour d’un programme familial, consensuel et de proximité, Vibration séduit un très large public. Cette proximité avec les auditeurs s’est construite autour de 2 axes : l’implication de Vibration dans la vie locale (infos locales, agendas et sorties) et par l’interactivité entre la station et ses auditeurs.",
@@ -4004,7 +4004,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/regie-radios-regions/logo-500x172_radio-virgin.jpg'),
+    logo: "require('./sipa/additi/regie-radios-regions/logo-500x172_radio-virgin.jpg')",
     societe: "Virgin Radio",
     groupe: "Radios Régie Régions",
     description: "Installé dans son format musical unique Pop Rock Electro, Virgin Radio est devenu une référence grâce à une playlist qui mixe références et nouveaux talents du genre. Virgin Radio sait aussi révéler les talents et dénicher les incontournables de la scène musicale française de demain. De la bonne humeur & de la complicité autour de la matinale Virgin Tonic animée par Camille Combal tous les matins de 7h à 10h et totalise près de 1,4 million d’auditeurs chaque matin.",
@@ -4026,7 +4026,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/additi/logo-500x172_additi.jpg'),
+    logo: "require('./sipa/additi/logo-500x172_additi.jpg')",
     societe: "Additi",
     groupe: "Additi",
     description: "La holding Euromedia 4 réunit, sous la marque Additi, la régie Précom et sa quinzaine de filiales et Ouest-France multimédia.",
@@ -4048,7 +4048,7 @@ const PLACES = [{
     telephone: "02 99 26 45 45"
   },
   {
-    logo: require('./sipa/infomer/logo-500x172_infomer.jpg'),
+    logo: "require('./sipa/infomer/logo-500x172_infomer.jpg')",
     societe: "Infomer",
     groupe: "Infomer",
     description: "Situé à Rennes (35), Infomer est le pôle d'informations maritimes du groupe Sipa/Ouest-France. Le Marin est une publication hebdomadaire diffusé le vendredi à 12 500 exemplaires. Disponible sur abonnement, en kiosque et en ligne, il s'adresse à un public de professionnels de la mer. Autres titres : Cultures marines et Produits de la mer ; Le Chasse-Marée à Douarnenez, revue du patrimoine maritime (13 sal.) ; le bimensuel Marines et Forces navales ; le mensuel Navires & marine marchande ; Voiles et Voiliers. Infomer édite aussi des revues d'histoire maritime et des livres avec la maison d'édition Marines éditions.",
@@ -4092,7 +4092,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/publihebdos/logo-500x172_publihebdos.jpg'),
+    logo: "require('./sipa/publihebdos/logo-500x172_publihebdos.jpg')",
     societe: "Publihebdos",
     groupe: "Publihebdos",
     description: "Publihebdos est un groupe de presse hebdomadaire, filiale de Sipa Ouest-France. Il compte 24 journaux pour les régions Bretagne et Pays de la Loire. Région Bretagne : Le Petit Bleu, L'Écho de l'Armor et de l'Argoat, Le Trégor, Le Penthièvre, La Presse d'Armor, Le Courrier Indépendant, La Chronique Républicaine, Le Pays Malouin, Pontivy Journal, La Gazette du Centre Morbihan, Le Ploërmelais, Le journal de Vitré. Région Pays de la Loire :L'Hebdo de Sèvre & Maine, Les Alpes Mancelles, L'Echo Sarthois, Le Petit Courrier du Val de Loir, Les Nouvelles, L'Echo Fléchois, Le Journal du Pays Yonnais, Le Journal des Sables, Le Courrier du pays de Retz, L'écho de la presqu'île, L'éclaireur de Châteaubriant, Le Courrier Vendéen, D'autres publications en Normandie, Midi-Pyrénées, Cantal, Jura, Centre, Nord et Île-de-France. La régie publicitaire Hebdos communication (190 salarié.es) est effective depuis 2018.",
@@ -4114,7 +4114,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg'),
+    logo: "require('./sipa/ouest-france/logo-500x172_OF_rouge.jpg')",
     societe: "Quotidien Ouest-France",
     groupe: "Ouest-France",
     description: "Ouest-France est un quotidien régional français, édité à Rennes et vendu dans les régions de l'ouest de la France, ainsi qu'à Paris. Il est, depuis 1975, le premier quotidien français en termes de diffusion, avec en moyenne 693 794 exemplaires diffusés chaque jour en 20164. Il est édité par le groupe SIPA – Ouest-France",
@@ -4136,7 +4136,7 @@ const PLACES = [{
     telephone: ''
   },
   {
-    logo: require('./sipa/sofiouest/logo-500x172_sofiouest.jpg'),
+    logo: "require('./sipa/sofiouest/logo-500x172_sofiouest.jpg')",
     societe: "Sofiouest",
     groupe: "Sofiouest",
     description: "Holding contrôlant Spir communication (entité cotée qui doit être maintenue jusqu'en 2023), la société agit comme un family office avec pour actionnaire majoritaire le groupe Sipa Ouest-France (51,26 %) avec à ses côtés le Crédit mutuel Arkea (11,48 %) et 215 actionnaires individuels. Elle prend des participations dans des « late stage start-ups », entreprises de l'économie numérique au sens large à fort potentiel ayant prouvé leur business model et souhaitant dynamiser leur croissance. En complément, elle investit aussi dans l'immobilier d'entreprise avec le groupe rennais Mazureau.",
@@ -4158,7 +4158,7 @@ const PLACES = [{
     telephone: "01 44 71 80 15"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_spir-communication.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_spir-communication.jpg')",
     societe: "Spir Commuanication",
     groupe: "Sofiouest",
     description: "Groupe de communication spécialisé dans la presse gratuite d'annonces. Basée à Paris, Spir communication est une filiale du groupe Ouest-France.",
@@ -4180,7 +4180,7 @@ const PLACES = [{
     telephone: "08 92 97 63 73"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France, en Espagne et en Suisse.",
@@ -4202,7 +4202,7 @@ const PLACES = [{
     telephone: "01 53 26 65 65"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Bordeaux",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Bordeaux",
@@ -4224,7 +4224,7 @@ const PLACES = [{
     telephone: "05 56 56 69 59"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Lille",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Lille",
@@ -4246,7 +4246,7 @@ const PLACES = [{
     telephone: "03 28 38 16 60"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Lyon",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Lyon",
@@ -4268,7 +4268,7 @@ const PLACES = [{
     telephone: "04 78 42 74 96"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Marseille",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Marseille",
@@ -4290,7 +4290,7 @@ const PLACES = [{
     telephone: "04 91 33 59 43"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Montpelier",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Montpellier",
@@ -4312,7 +4312,7 @@ const PLACES = [{
     telephone: "05 56 56 69 59"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Nantes",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Nantes",
@@ -4334,7 +4334,7 @@ const PLACES = [{
     telephone: "02 40 89 92 70"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Nice",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Nice",
@@ -4356,7 +4356,7 @@ const PLACES = [{
     telephone: "04 93 30 17 64"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Rennes",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Rennes",
@@ -4378,7 +4378,7 @@ const PLACES = [{
     telephone: "02 99 29 69 65"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Strasbourg",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Strasbourg",
@@ -4400,7 +4400,7 @@ const PLACES = [{
     telephone: "03 88 23 96 36"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/logo-500x172_20-minutes.jpg')",
     societe: "20 Minutes Toulouse",
     groupe: "Spir Communication",
     description: "Quotidien d'information générale distribué gratuitement en France – Edition Toulouse",
@@ -4510,7 +4510,7 @@ const PLACES = [{
     telephone: "02 43 39 60 11"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4532,7 +4532,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4554,7 +4554,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4576,7 +4576,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4598,7 +4598,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4620,7 +4620,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4642,7 +4642,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4664,7 +4664,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4686,7 +4686,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4708,7 +4708,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4730,7 +4730,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4752,7 +4752,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4774,7 +4774,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4796,7 +4796,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4818,7 +4818,7 @@ const PLACES = [{
     telephone: "0 800 10 02 85"
   },
   {
-    logo: require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg'),
+    logo: "require('./sipa/sofiouest/spir-communication/regicom/logo-500x172_regicom.jpg')",
     societe: "Régicom",
     groupe: "Spir Communication",
     description: "Expert en communication digitale locale",
@@ -4841,4 +4841,4 @@ const PLACES = [{
   }
 ]
 
-export default PLACES;
+module.exports = PLACES;

@@ -11,7 +11,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Router() {
   return (
-    <NavigationContainer style={style.Nav}>
+    <NavigationContainer>
       <Tab.Navigator
       tabBarOptions={{
         activeTintColor: 'red',
@@ -24,9 +24,3 @@ export default function Router() {
     </NavigationContainer>
   );
 }
-
-const style = StyleSheet.create({
-  Nav:{
-    backgroundColor: "red"
-  }
-})

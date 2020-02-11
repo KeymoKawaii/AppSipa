@@ -9,8 +9,8 @@ const Filiales = (props) => {
 
 		return (
 
-      <View>
-        <Text >Filiales</Text>
+      <View style={styles.container}>
+        <Text style={styles.Title}>Filiales</Text>
         <ScrollView horizontal={true}>
           <Image style={styles.image}source={require('../../../img/PRECOM/logo-500x172_precom-alimentation.jpg')} />
           <Image style={styles.image}source={require('../../../img/REGIE-RADIOS-REGION/logo-500x172_cocktail-fm.jpg')} />
@@ -30,8 +30,8 @@ const Filiales = (props) => {
 
     return (
 
-      <View>
-      <Text>Filiales</Text>
+      <View style={styles.container}>
+      <Text style={styles.Title}>Filiales</Text>
         <ScrollView horizontal={true}>
           <Image style={styles.image}source={require('../../../img/logo-500x172_OF_Rouge.jpg')} />
           <Image style={styles.image}source={require('../../../img/INFOMER/logo-500x172_chasse-maree.jpg')} />
@@ -67,5 +67,12 @@ const styles = StyleSheet.create({
     textAlign:'center',
     width:'100%',
     textDecorationLine:'underline'
+  },
+  Title: {
+    textAlign: "center",
+    fontSize: 40
+  },
+  container:{
+    paddingTop: 50
   }
 });

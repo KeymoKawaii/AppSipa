@@ -37,7 +37,6 @@ const Filiales = (props) => {
           <Image style={styles.image}source={require('../../../img/INFOMER/logo-500x172_chasse-maree.jpg')} />
           <Image style={styles.image}source={require('../../../img/INFOMER/logo-500x172_le-marin.jpg')} />
           <Image style={styles.image}source={require('../../../img/logo-pdm.png')} />
-          <Image style={styles.image}source={require('../../../img/INFOMER/logo-500x172_chasse-maree.jpg')} />
           <Image style={styles.image}source={require('../../../img/logo-500x172_voiles-et-voiliers.jpg')} />
           <Image style={styles.image}source={require('../../../img/logo-500x172_editions-ouest-france.jpg')} />
         </ScrollView>

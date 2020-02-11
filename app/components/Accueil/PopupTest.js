@@ -24,17 +24,18 @@ export default class Popup extends Component {
           transparent={false}
           visible={this.state.modalVisible}>
           <View>
-            <View style={styles.container}>
-            <Text style={styles.Title}>{this.props.group}</Text>
-            <Description  style={styles.description} group={this.props.group}/>
-            <Filiales style={styles.filiales} group={this.props.group}/>
-            
-              <TouchableHighlight
+          <TouchableHighlight
                 onPress={() => {
                   this.setModalVisible(!this.state.modalVisible);
                 }}>
                   <Text>Close</Text>
               </TouchableHighlight>
+            <View style={styles.container}>
+            <Text style={styles.Title}>{this.props.group}</Text>
+            <Description  style={styles.description} group={this.props.group}/>
+            <Filiales style={styles.filiales} group={this.props.group}/>
+            
+             
             </View>
           </View>
         </Modal>
@@ -46,9 +47,12 @@ export default class Popup extends Component {
           {
            (this.props.group === "Additi") ?
             (<Image source={require('../../img/logo-500x172_OF_Rouge.jpg')}/>)
-              : (<Image source={require('../../img/Additi-logo.gif')}/>)
+            : (<Image source={require('../../img/Additi-logo.gif')}/>) 
+            
+              
           }
         </TouchableHighlight>
+        
       </View>
     );
   }
@@ -56,17 +60,18 @@ export default class Popup extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-    padding: 50
+    padding: 50,
+    
   },
   image:{
-    width:30,
-    height:30,
+    width:33,
+    height:33,
     resizeMode:'contain',
     marginLeft:'92%',
     marginTop:10
   },
   Title: {
-    fontSize: 16,
+    fontSize: 36,
     textAlign: "center",
     color: "red"
   },
@@ -74,6 +79,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   description: {
+    
     position: "absolute",
 
   }

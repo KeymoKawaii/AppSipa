@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Image,ImageBackground, Text, TouchableOpacity, ScrollView} from 'react-native';
-import Popup from './PopupTest'
+import { StyleSheet, View, ImageBackground, Text} from 'react-native';
+import PopupAccueil from './PopupAccueil'
 
 
 export default class Home extends React.Component {
@@ -10,8 +10,10 @@ export default class Home extends React.Component {
       <View style={styles.main}>
         <Text style={styles.texte}>Les différents groupes appartenant à SIPA Ouest-France</Text>
         <ImageBackground source={require('../../img/brittany-1146351_960_720.jpg')} style={{position:"absolute", top:0, left:0,right:0, bottom:0, zIndex:-1}}></ImageBackground>
-        <Popup group="Ouest France" />
-        <Popup group="Additi" />
+        <View style={styles.popup}>
+        <PopupAccueil group="Ouest France" />
+        <PopupAccueil group="Additi" />
+        </View>
       </View>
     )
   }
@@ -54,5 +56,15 @@ const styles = StyleSheet.create({
   containertouchable:{
     height:150,
     justifyContent:'center'
+  },
+  popup:{
+    display: "flex",
+    position: "absolute",
+    flexDirection: 'row',
+    bottom: 0,
+    backgroundColor: "white",
+    width: "100%",
+    justifyContent: "space-around",
+    alignItems: "center"
   }
 })

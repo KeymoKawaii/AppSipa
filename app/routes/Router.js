@@ -1,4 +1,5 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
@@ -10,8 +11,12 @@ const Tab = createBottomTabNavigator();
 
 export default function Router() {
   return (
-    <NavigationContainer>
-      <Tab.Navigator>
+    <NavigationContainer style={style.Nav}>
+      <Tab.Navigator
+      tabBarOptions={{
+        activeTintColor: 'red',
+        inactiveTintColor: 'gray',
+      }}>
         <Tab.Screen name="Accueil" component={Home}  />
         <Tab.Screen name="Recherche" component={Search} />
         <Tab.Screen name="Carte" component={Map} />
@@ -19,3 +24,9 @@ export default function Router() {
     </NavigationContainer>
   );
 }
+
+const style = StyleSheet.create({
+  Nav:{
+    backgroundColor: "red"
+  }
+})

@@ -46,9 +46,12 @@ export default class Popup extends Component {
           {
             this.props.group = "Additi" ?
             (<Image source={require('../../img/logo-500x172_OF_Rouge.jpg')}/>)
-              : (<Image source={require('../../img/Additi-logo.gif')}/>)
+            : (<Image source={require('../../img/Additi-logo.gif')}/>) 
+            
+              
           }
         </TouchableHighlight>
+        
       </View>
     );
   }
@@ -56,7 +59,8 @@ export default class Popup extends Component {
 
 const styles = StyleSheet.create({
 	container: {
-    padding: 50
+    padding: 50,
+    
   },
   image:{
     width:30,
@@ -66,7 +70,7 @@ const styles = StyleSheet.create({
     marginTop:10
   },
   Title: {
-    fontSize: 16,
+    fontSize: 32,
     textAlign: "center",
     color: "red"
   },
@@ -74,6 +78,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   description: {
+   
     position: "absolute",
 
   }

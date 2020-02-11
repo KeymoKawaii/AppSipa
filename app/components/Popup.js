@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View, StyleSheet} from 'react-native';
+import { View, StyleSheet, Text} from 'react-native';
 import Description from './Description';
-import Filiales from './Filiales';
 import BoutonClose from './BoutonClose';
 
 
@@ -17,10 +16,10 @@ export default class Popup extends Component {
         <View style={styles.PopupContainer}>
         <BoutonClose close={this.props.close}/>
           <View style={styles.PopupSousContainer}>
-           <Description mapButton={this.props.mapButton} group={this.props.group}/>
+           <Description mapButton={this.props.mapButton} group={this.props.group} />
            <View style={styles.divider}></View>
             <View style={styles.blocGauche}>
-              <Filiales group={this.props.group} />
+            <Filiales group={this.props.group} />
             </View>
           </View>
         </View>

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, BackHandler} from 'react-native';
 
-import Home from '../components/Home';
-import Popup from '../components/Popup';
+import Home from '../components/Accueil/Picture';
 import Entete from '../components/Entete';
 import Map from '../components/Map';
 import SearchableList from '../components/SearchableList';
@@ -52,13 +51,7 @@ export default class Router extends Component {
       return <View style={{flex:1}}>
         {this.renderEntete()}
         <Map/>
-      </View>
-
-    } else if (this.state.page === 'ouestfrance' || this.state.page === 'additi') {
-      return <View style={{flex:1}}>
-        {this.renderEntete()}
-      <Popup mapButton={() => {this.setState({page:'map', previous: page})}} group={this.state.page} close={() => {this.setState({page: false})}}/>
-      </View>
+        </View>
 
     } else if (this.state.page === 'search') {
       return <View style={{flex:1}}>

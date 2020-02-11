@@ -1,9 +1,13 @@
 import React, {Component} from  'react';
 import { StyleSheet, View, Image,ImageBackground, Text, TouchableOpacity, ScrollView} from 'react-native';
+import Popup from './PopupTest'
 
 
-export default class Home extends Component {
-
+export default class Picture extends Component {
+  constructor(props){
+    super(props)
+   
+  }
   render () {
 
     return(
@@ -11,12 +15,14 @@ export default class Home extends Component {
       <View style={styles.main}>
         <Text style={styles.texte}>Les différents groupes appartenant à SIPA Ouest-France</Text>
         <ScrollView contentContainerStyle={styles.container} horizontal={true} showsHorizontalScrollIndicator>
-          <View style={styles.blocLogo}>
+          {/* <View style={styles.blocLogo}>
           <TouchableOpacity style={styles.containertouchable} onPress={this.props.OuestFrance}><Image source={require('../img/logo-500x172_OF_Rouge.jpg')} style={styles.logo}/></TouchableOpacity>
           <TouchableOpacity style={styles.containertouchable} onPress={this.props.Additi}><Image source={require('../img/Additi-logo.gif')} style={styles.logo}/></TouchableOpacity>                   
-          </View>
+          </View> */}
         </ScrollView>
-        <ImageBackground source={require('../img/brittany-1146351_960_720.jpg')} style={{position:"absolute", top:0, left:0,right:0, bottom:0, zIndex:-1}}></ImageBackground>
+        <ImageBackground source={require('../../img/brittany-1146351_960_720.jpg')} style={{position:"absolute", top:0, left:0,right:0, bottom:0, zIndex:-1}}></ImageBackground>
+        <Popup group="Ouest France" />
+        <Popup group="Additi" />
       </View>
     
     )

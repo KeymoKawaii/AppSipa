@@ -7,7 +7,6 @@ import FicheDetail from './FicheDetail';
 import PLACES from '../consts/Places';
 
 
-
 Mapbox.setAccessToken(
 	'pk.eyJ1IjoicGFjdGVzcyIsImEiOiJjazBjNmsydmMweXJlM21wZTh6NGl4cml3In0.QtCHsu5sWL6tKXP6so4bbA'
 );

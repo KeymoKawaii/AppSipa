@@ -109,6 +109,7 @@ renderHeader = () => {
   
     <View>
     <SearchBar
+    style={{position: 'absolute', top: 0, flex: 1, alignSelf: 'stretch', right: 0, left: 0}}
     placeholder="Rechercher"
     backgroundColor='#fff'
     inputContainerStyle={{backgroundColor: '#fff', borderRadius: 15, borderColor:'red', borderWidth: 2, borderBottomColor:'red', borderBottomWidth: 2}}
@@ -122,7 +123,7 @@ renderHeader = () => {
     />
 {/* <Text style={{height:50, fontSize: 20, color: '#4F4F4F', textAlign:'center', padding:10} }>Filtres:</Text> */}
    
-   <View style={{height: 80,  backgroundColor: '#DDD',
+   <View style={{height: 80,  
 	
     width:'100%',
     display:"flex",
@@ -132,10 +133,11 @@ renderHeader = () => {
     // paddingHorizontal:10
     
 	}}>
-
    
     {/* selection de departement*/}
-        <Picker
+    <View>
+      <Text style={styles.textPicker}>DEPARTEMENT</Text>
+      <Picker
   
         selectedValue={this.state.selectedDepartement}
         style={styles.picker}
@@ -147,50 +149,77 @@ renderHeader = () => {
           
       }}>
      
-      <Picker.Item style={styles.picker_item} label=" par departement " value="0" />
+      {/* <Picker.Item style={styles.picker_item} label=" PAR DEPARTEMENT " value="0" /> */}
       {departements.map((item, key) => (
-                                            <Picker.Item style={styles.picker_item} label={item} value={item} key={key} />)
+                                            <Picker.Item  color='#636363' label={item} value={item} key={key} />)
                                         )}
     </Picker> 
-     
+    </View>
+        
+    <View
+            style={{
+                height: 50,
+                width: 1,
+                backgroundColor: "#D81458",
+                opacity:0.7
+            }}
+        />
+   
 
      {/* selection de regions */}
-     <Picker
-  
-        selectedValue={this.state.selectedRegion}
-        style={styles.picker}
-        onValueChange={(itemValue, itemIndex) => {
-          if (itemValue != "0"){
-              this.setState({selectedRegion: itemValue})
-              this.searchFilterFunction(itemValue)
-          }
-          
-      }}>
-     
-      <Picker.Item  style={styles.picker_item} label=" par region " value="0" />
-      {regions.map((item, key) => (
-                                            <Picker.Item style={styles.picker_item} label={item} value={item} key={key} />)
-                                        )}
-    </Picker> 
-     
-      {/* selection de types */}
-      <Picker
-  defaultValue="Select your SIM"
-  selectedValue={this.state.selectedType}
-  style={styles.picker}
-  onValueChange={(itemValue, itemIndex) => {
-    if (itemValue != "0"){
-        this.setState({selectedType: itemValue})
-        this.searchFilterFunction(itemValue)
-    }
-    
-}}>
+     <View>
+       <Text style={styles.textPicker}> REGION</Text>
+       <Picker
+            
+            selectedValue={this.state.selectedRegion}
+            style={styles.picker}
+            onValueChange={(itemValue, itemIndex) => {
+              if (itemValue != "0"){
+                  this.setState({selectedRegion: itemValue})
+                  this.searchFilterFunction(itemValue)
+              }
+              
+          }}>
 
-  <Picker.Item  style={styles.picker_item} label=" par type " value="0" />
-{types.map((item, key) => (
-                                      <Picker.Item  style={styles.picker_item} label={item} value={item} key={key} />)
-                                  )}
-</Picker> 
+        
+          {regions.map((item, key) => (
+                                                <Picker.Item  color='#636363' label={item} value={item} key={key} />)
+                                            )}
+      </Picker> 
+    </View>
+    
+          
+    <View
+            style={{
+                height: 50,
+                width: 1,
+                backgroundColor: "#D81458",
+                opacity:0.7
+              
+            }}
+        />
+   
+      {/* selection de types */}
+    <View>
+       <Text style={styles.textPicker} > TYPE </Text>
+        <Picker
+            selectedValue={this.state.selectedType}
+            style={styles.picker}
+            onValueChange={(itemValue, itemIndex) => {
+              if (itemValue != "0"){
+                  this.setState({selectedType: itemValue})
+                  this.searchFilterFunction(itemValue)
+              }
+              
+          }}>
+
+            
+          {types.map((item, key) => (
+                                                <Picker.Item  styles={styles.picker_item} color='#636363' label={item} value={item} key={key} />)
+                                            )}
+        </Picker> 
+   </View>
+     
 
     </View>
     </View>
@@ -255,16 +284,20 @@ const styles = StyleSheet.create({
 		alignItems:'center'
   },
   picker:{
-    height: 40,
-    width: 240,
-    backgroundColor: '#FFF',
-    borderRadius: 15,
-    borderColor:'red',
-    borderWidth: 2,
-    backgroundColor: 'transparent',
-    color: '#B1B1B1'
+    width:200,
+    // backgroundColor: '#FFF',
+    // fontSize:5,
+    borderLeftColor:'#007aff'
+
    
   },
+  textPicker:{
+   textAlign: 'center',
+    color:'#007aff',
+    alignSelf:'center',
+
+    },
+ 
   
 });
 

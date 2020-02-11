@@ -6,7 +6,7 @@ import ResultatRecherche from './ResultatRecherche';
 
 
 
-class SearchableList extends Component {
+export default class Search extends Component {
 
   constructor(props) {
     super(props);
@@ -161,6 +161,3 @@ const styles = StyleSheet.create({
 		alignItems:'center'
   }
 });
-
-
-export default SearchableList;

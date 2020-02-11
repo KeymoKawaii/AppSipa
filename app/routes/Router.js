@@ -1,89 +1,21 @@
-import React, {Component} from 'react';
-import {View, StyleSheet, BackHandler} from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import Home from '../components/Accueil/Picture';
-import Entete from '../components/Entete';
-import Map from '../components/Map';
-import SearchableList from '../components/SearchableList';
+import Home from "../components/Accueil/Accueil"
+import Search from '../components/SearchableList'
+import Map from '../components/Map'
 
+const Tab = createBottomTabNavigator();
 
-export default class Router extends Component {
-  constructor () {
-    super();
-    this.state = {
-      page: false,
-      previous: false
-    }
-  }
- 
-
-  componentDidMount () {
-    let t = this;
-    BackHandler.addEventListener('hardwareBackPress', () => {
-      if(t.state.page){
-        this.setState({
-          page: this.state.previous,
-          previous: false,
-        })
-        return true;
-      }
-    });
-  }
-
-
-  renderEntete () {
-    
-    let {page} = this.state;
-    return (
-      <Entete 
-        search={() => {this.setState({page:'search', previous: page}) }} 
-        home={() => {this.setState({page:false, previous: page}) }} 
-        map={() => {this.setState({page:'map', previous: page})}}
-      />
-    )
-  }
-
-  renderPage () {
-
-    let {page} = this.state;
-
-    if(this.state.page === 'map') {
-      return <View style={{flex:1}}>
-        {this.renderEntete()}
-        <Map/>
-        </View>
-
-    } else if (this.state.page === 'search') {
-      return <View style={{flex:1}}>
-        {this.renderEntete()}
-      <SearchableList resultat={() => {this.setState({page:'info', previous: page}) }}/>
-      </View>
-      
-    }else {
-      return <View style={{flex:1}}>
-        {this.renderEntete()}
-        <Home OuestFrance={() => {this.setState({page:'ouestfrance'}) }} Additi={() => {this.setState({page:'additi'}) }}/>
-      </View>
-    }
-  }
-
-
-  render () {
-
-    return (
-      <View style={styles.main}>
-        {this.renderPage()}
-      </View>
-    )
-  }
+export default function Router() {
+  return (
+    <NavigationContainer>
+      <Tab.Navigator>
+        <Tab.Screen name="Home" source={require('../img/logo-500x172_OF_Rouge.jpg')} component={Home} />
+        <Tab.Screen name="Search" component={Search} />
+        <Tab.Screen name="Map" component={Map} />
+      </Tab.Navigator>
+    </NavigationContainer>
+  );
 }
-
-const styles = StyleSheet.create({
-  main: {
-    flex:1,
-    backgroundColor:'white',
-  },
-  return: {
-    width:100,
-  },
-})

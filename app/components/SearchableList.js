@@ -133,7 +133,6 @@ renderHeader = () => {
     // paddingHorizontal:10
     
 	}}>
-
    
     {/* selection de departement*/}
     <View>
@@ -157,7 +156,15 @@ renderHeader = () => {
     </Picker> 
     </View>
         
-     
+    <View
+            style={{
+                height: 50,
+                width: 1,
+                backgroundColor: "#D81458",
+                opacity:0.7
+            }}
+        />
+   
 
      {/* selection de regions */}
      <View>
@@ -181,7 +188,17 @@ renderHeader = () => {
       </Picker> 
     </View>
     
-     
+          
+    <View
+            style={{
+                height: 50,
+                width: 1,
+                backgroundColor: "#D81458",
+                opacity:0.7
+              
+            }}
+        />
+   
       {/* selection de types */}
     <View>
        <Text style={styles.textPicker} > TYPE </Text>
@@ -198,7 +215,7 @@ renderHeader = () => {
 
             
           {types.map((item, key) => (
-                                                <Picker.Item   color='#636363' label={item} value={item} key={key} />)
+                                                <Picker.Item  styles={styles.picker_item} color='#636363' label={item} value={item} key={key} />)
                                             )}
         </Picker> 
    </View>
@@ -268,20 +285,19 @@ const styles = StyleSheet.create({
   },
   picker:{
     width:200,
-   
-    fontSize:5,
+    // backgroundColor: '#FFF',
+    // fontSize:5,
     borderLeftColor:'#007aff'
 
    
   },
   textPicker:{
-    paddingVertical:5,
-    color:'#007aff'
-  },
-  picker_item :{
-   
-    
-  }
+   textAlign: 'center',
+    color:'#007aff',
+    alignSelf:'center',
+
+    },
+ 
   
 });
 

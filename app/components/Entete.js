@@ -5,8 +5,9 @@ import Recherche from './Recherche.js';
 
 
 export default class Entete extends Component {
-
+  
 render() {
+ 
  
     return (
 
@@ -15,9 +16,9 @@ render() {
          <TouchableOpacity onPress={this.props.home}><Image source={require('../img/logo-500x172_OF_Rouge.jpg')} style={styles.Image} /></TouchableOpacity>
             <View style={{ width: 350, marginRight: 50, flexDirection: "row"}}>
               <View  style={{ width: 300, }}>
-                <TouchableOpacity onPress={this.props.search}><Recherche/></TouchableOpacity>
+                 {(this.props.page !== 'search')?<TouchableOpacity onPress={this.props.search}><Recherche/></TouchableOpacity> : null}
               </View>
-              <TouchableOpacity onPress={this.props.map}><Image source={require('../img/BOUTONS/placeholder.png')} style={styles.logoRouge}/></TouchableOpacity>
+              {(this.props.page !== 'map')? <TouchableOpacity onPress={this.props.map}><Image source={require('../img/BOUTONS/placeholder.png')} style={styles.logoRouge}/></TouchableOpacity>: null}
           </View>
          </View> 
       </View>

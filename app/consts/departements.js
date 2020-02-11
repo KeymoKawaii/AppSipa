@@ -1,0 +1,3 @@
+const departements = ["Ille-et-Vilaine","Maine-et-Loire","Finistère","Calvados","Loire-Atlantique","Puy-de-Dôme","Paris","Sarthe","Orne","Morbihan","Manche","Vendée","Mayenne","Côtes d’Armor","Seine-et-Marne","Seine-Maritime","Haute-Garonne","Val-d'Oise","Département-du-Nord","Eure","Eure-et-Loir","Lot","Cantal","Jura","Yvelines","Somme","Lot-et-Garonne","Gironde","Département du Nord","Rhône","Bouche-du-Rhône","Hérault","Alpes-Maritimes","Bas-Rhin","Oise","Doubs","Corrèze","Val-de-Marne","Vosges","Loire"]; 
+
+export default departements;

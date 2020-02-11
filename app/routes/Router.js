@@ -35,6 +35,7 @@ export default class Router extends Component {
   renderEntete () {
     
     let {page} = this.state;
+   
     return (
       <Entete 
         search={() => {this.setState({page:'search', previous: page}) }} 

@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
-import { View, FlatList, ActivityIndicator, StyleSheet } from 'react-native';
-import { ListItem, SearchBar } from 'react-native-elements';
+import { View, FlatList, ActivityIndicator, StyleSheet, Picker ,TouchableOpacity,Text} from 'react-native';
+import { ListItem, SearchBar} from 'react-native-elements';
 import PLACES from '../consts/Places'
+import departements from '../consts/departements'
+import regions from '../consts/regions'
+import types from '../consts/types'
+
 import ResultatRecherche from './ResultatRecherche';
 
+// import Autocomplete from 'react-native-autocomplete-input';
+// import regions from './files';
+// import departements from './../consts/departements';
 
 
-export default class Search extends Component {
-
+class SearchableList extends Component {
+  
   constructor(props) {
     super(props);
 
@@ -16,12 +23,20 @@ export default class Search extends Component {
       data: PLACES,
       error: null,
       value: '',
-      detailAdress: false
+      detailAdress: false,
+      villes : ['Rennes', 'Brest', 'saint malo'],
+      selectedRegion: '',
+      selectedDepartement:'',
+      selectedType:''
+     
     };
+    
+    // this.departements = departements;
+    // this.myRegions = regions;
     this.arrayholder = PLACES;
   }
 
-
+  
 getAdresse (adresse) {
 this.setState({
   detailAdress: adresse
@@ -62,6 +77,8 @@ searchFilterFunction = text => {
       codepostal: item.codepostal,
       ville: item.ville,
       groupe: item.groupe,
+      region: item.region,
+      departement: item.departement
     }
 
     let toInspect = JSON.stringify(item2); 
@@ -87,7 +104,10 @@ searchFilterFunction = text => {
 
 
 renderHeader = () => {
+
   return (
+  
+    <View>
     <SearchBar
     placeholder="Rechercher"
     backgroundColor='#fff'
@@ -100,6 +120,80 @@ renderHeader = () => {
     autoCorrect={false}
     value={this.state.value}
     />
+{/* <Text style={{height:50, fontSize: 20, color: '#4F4F4F', textAlign:'center', padding:10} }>Filtres:</Text> */}
+   
+   <View style={{height: 80,  backgroundColor: '#DDD',
+	
+    width:'100%',
+    display:"flex",
+    flexDirection:'row',
+    justifyContent:"space-around",
+    alignItems:'center',
+    // paddingHorizontal:10
+    
+	}}>
+
+   
+    {/* selection de departement*/}
+        <Picker
+  
+        selectedValue={this.state.selectedDepartement}
+        style={styles.picker}
+        onValueChange={(itemValue, itemIndex) => {
+          if (itemValue != "0"){
+              this.setState({selectedDepartement: itemValue})
+              this.searchFilterFunction(itemValue)
+          }
+          
+      }}>
+     
+      <Picker.Item style={styles.picker_item} label=" par departement " value="0" />
+      {departements.map((item, key) => (
+                                            <Picker.Item style={styles.picker_item} label={item} value={item} key={key} />)
+                                        )}
+    </Picker> 
+     
+
+     {/* selection de regions */}
+     <Picker
+  
+        selectedValue={this.state.selectedRegion}
+        style={styles.picker}
+        onValueChange={(itemValue, itemIndex) => {
+          if (itemValue != "0"){
+              this.setState({selectedRegion: itemValue})
+              this.searchFilterFunction(itemValue)
+          }
+          
+      }}>
+     
+      <Picker.Item  style={styles.picker_item} label=" par region " value="0" />
+      {regions.map((item, key) => (
+                                            <Picker.Item style={styles.picker_item} label={item} value={item} key={key} />)
+                                        )}
+    </Picker> 
+     
+      {/* selection de types */}
+      <Picker
+  defaultValue="Select your SIM"
+  selectedValue={this.state.selectedType}
+  style={styles.picker}
+  onValueChange={(itemValue, itemIndex) => {
+    if (itemValue != "0"){
+        this.setState({selectedType: itemValue})
+        this.searchFilterFunction(itemValue)
+    }
+    
+}}>
+
+  <Picker.Item  style={styles.picker_item} label=" par type " value="0" />
+{types.map((item, key) => (
+                                      <Picker.Item  style={styles.picker_item} label={item} value={item} key={key} />)
+                                  )}
+</Picker> 
+
+    </View>
+    </View>
   );
 };
 
@@ -159,5 +253,20 @@ const styles = StyleSheet.create({
 		flex:1,
 		justifyContent:'center',
 		alignItems:'center'
-  }
+  },
+  picker:{
+    height: 40,
+    width: 240,
+    backgroundColor: '#FFF',
+    borderRadius: 15,
+    borderColor:'red',
+    borderWidth: 2,
+    backgroundColor: 'transparent',
+    color: '#B1B1B1'
+   
+  },
+  
 });
+
+
+export default SearchableList;

@@ -28,7 +28,7 @@ export default class Popup extends Component {
                 onPress={() => {
                   this.setModalVisible(!this.state.modalVisible);
                 }}>
-                  <Image source={require('../../img/BOUTONS/close.png')} style={styles.image} />
+                  <Image source={require('../../img/BOUTONS/close.png')} style={styles.image} />/*
               </TouchableHighlight>
             <View style={styles.container}>
             <Text style={styles.Title}>{this.props.group}</Text>

@@ -79,8 +79,8 @@ export default class Filter extends Component {
             <Text style={styles.groupFilter}>Groupe</Text>
 
             <View style={{justifyContent:'center',alignItems:'center'}}>
-              <FilterLink name='Additi' style={(this.props.filterName == 'Ouest-France')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
-              <FilterLink name='Additi' style={(this.props.filterName == 'Additi')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
+              <FilterLink name='Additi' style={(this.props.filterName == 'Ouest-France,Additi')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
+             
               <FilterLink name='Les Journaux de Loire' style={(this.props.filterName == 'Les Journaux de Loire')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
               <FilterLink name='Publihebdos' style={(this.props.filterName == 'Publihebdos')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
               <FilterLink name='Radios Régie Régions' style={(this.props.filterName == 'Radios Régie Régions')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="groupe" />
@@ -92,8 +92,8 @@ export default class Filter extends Component {
             <Text style={styles.groupFilter}>Type</Text>
 
             <View style={{justifyContent:'center',alignItems:'center'}}>
-              <FilterLink name='Rédaction' style={(this.props.filterName == 'Rédaction')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
-              <FilterLink name='Rédaction' style={(this.props.filterName == 'Imprimerie')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
+              <FilterLink name='Rédaction' style={(this.props.filterName == 'Rédaction,Imprimerie')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
+          
               <FilterLink name='Edition' style={(this.props.filterName == 'Edition')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
               <FilterLink name='Agence' style={(this.props.filterName == 'Agence')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
               <FilterLink name='Siège' style={(this.props.filterName == 'Siège')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />

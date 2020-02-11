@@ -12,9 +12,9 @@ export default function Router() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="Home" source={require('../img/logo-500x172_OF_Rouge.jpg')} component={Home} />
-        <Tab.Screen name="Search" component={Search} />
-        <Tab.Screen name="Map" component={Map} />
+        <Tab.Screen name="Accueil" component={Home}  />
+        <Tab.Screen name="Recherche" component={Search} />
+        <Tab.Screen name="Carte" component={Map} />
       </Tab.Navigator>
     </NavigationContainer>
   );

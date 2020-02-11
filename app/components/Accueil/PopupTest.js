@@ -44,7 +44,7 @@ export default class Popup extends Component {
             this.setModalVisible(true);
           }}>
           {
-            this.props.group = "Additi" ?
+           (this.props.group === "Additi") ?
             (<Image source={require('../../img/logo-500x172_OF_Rouge.jpg')}/>)
               : (<Image source={require('../../img/Additi-logo.gif')}/>)
           }

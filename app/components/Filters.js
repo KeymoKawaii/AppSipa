@@ -92,8 +92,8 @@ export default class Filter extends Component {
             <Text style={styles.groupFilter}>Type</Text>
 
             <View style={{justifyContent:'center',alignItems:'center'}}>
-              <FilterLink name='Rédaction' style={(this.props.filterName == 'Rédaction,Imprimerie')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
-          
+              <FilterLink name='Rédaction' style={(this.props.filterName == 'Rédaction')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
+              <FilterLink name='Imprimerie' style={(this.props.filterName == 'Imprimerie')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
               <FilterLink name='Edition' style={(this.props.filterName == 'Edition')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
               <FilterLink name='Agence' style={(this.props.filterName == 'Agence')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
               <FilterLink name='Siège' style={(this.props.filterName == 'Siège')? styles.textFilter : styles.textFilterActive} filtre={this.props.filtre} type="type" />
